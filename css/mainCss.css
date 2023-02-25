@@ -1,1 +1,75 @@
-/*# sourceMappingURL=mainCss.css.map */
+#YungChien {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#YungChien .title_area {
+  font-size: 30px;
+  letter-spacing: 4px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+#YungChien .title_area::after {
+  content: "";
+  width: 20%;
+  border-bottom: 3px solid rgb(71, 121, 152);
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section01 {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to bottom, rgb(71, 121, 152) 35%, rgb(255, 255, 255) 100%);
+}
+.section01 .container-fluid {
+  padding-left: 2rem;
+}
+.section01 .container-fluid .row {
+  width: 100%;
+}
+.section01 .container-fluid .row .col-12 {
+  color: lightgray;
+  line-height: 400px;
+  font-size: 36px;
+}
+
+.section02 .container {
+  width: 70%;
+  margin: auto;
+}
+.section02 .container .row {
+  width: 100%;
+}
+.section02 .container .row .info_area {
+  width: 100%;
+}
+.section02 .container .row .info_area .col-12 {
+  margin-bottom: 2rem;
+}
+.section02 .container .row .info_area .col-12 img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section02 .container .row .info_area .col-12 .subtitle_area {
+  text-align: center;
+  color: rgb(71, 121, 152);
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.section02 .container .row .info_area .col-12 .content_area p {
+  text-indent: 2rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.section03 .container {
+  width: 70%;
+}
+.section03 .container .row {
+  width: 100%;
+}/*# sourceMappingURL=mainCss.css.map */

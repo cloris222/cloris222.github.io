@@ -7,15 +7,45 @@
     <title>Document</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css' integrity='sha512-bR79Bg78Wmn33N5nvkEyg66hNg+xF/Q8NA8YABbj+4sBngYhv9P8eum19hdjYcY7vXk/vRkhM3v/ZndtgEXRWw==' crossorigin='anonymous'/>
     <link rel='stylesheet' href='./css/mainCss.css'/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="YungChien">
+
+        <nav class="navbar navbar-expand-lg fixed-top bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Yung Chien</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#aboutMe">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactMe">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
         <!-- 滿版照片 -->
-        <div class="section01">
+        <div  class="section01">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        Hello！我是詠茜
+                    <div class="col-12 text-center ">
+                        Hello ! I am Yung Chien .
                     </div>
                 </div>
                 
@@ -25,75 +55,88 @@
         <!-- 資料區 -->
 
         <!-- 簡歷 -->
-        <div class="section02">
+        <div id="aboutMe" class="section02">
             <div class="container">
-                
-            <div class="row">
-                <div class="col-12">
-                    <div class="title_area">
-                        About Me
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="title_area">
+                            About Me
+                        </div>
+                    </div>
+                    <div class="info_area">
+                    <div class=" col-12 col-lg-4 img_area">
+                        <img src="./img/IMG_6852.JPG">
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <div class="subtitle_area ">
+                            挑戰自我，持續學習
+                        </div>
+                        <div class="content_area">
+                            <p>
+                            嗨，我是詠茜，畢業於國立高雄師範大學國文系，曾有在教育現場實習及工作的經驗，過程中培養了我換位思考的能力、良好的溝通能力及抗壓性。
+                            </p>
+                            <p>
+                            在探索職涯方向時，我偶然接觸到了「網頁設計」的領域，並對其產生了濃烈的興趣，在多方考量下，選擇參加泰山職業訓練場的「前端網頁開發技術」全日制職業訓練課程，在半年的時間中，我學習使用HTML、CSS、SCSS、JavaScript、jQuery、 RESTful API 資料串接應用、Vue框架……等前端技術建置RWD網站，並能運用mongoDB建置資料庫，獨立完成一個具有完整前後台的網站。
+                            </p>
+                            <p>
+                            過往的經歷訓練我成為一個具有責任感且樂於接受挑戰的人，解決問題時的成就感則是我持續學習的動力，我期許自己未來能繼續在網頁設計的領域中耕耘，成為一名能從使用者角度思考的網頁開發者。
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="info_area">
-                <div class=" col-12 col-lg-4 img_area">
-                    <img src="" alt="">
                 </div>
-                <div class="col-12 col-lg-8">
-                    <div class="subtitle_area">
-                        這裡是副標題
-                    </div>
-                    <div class="content_area">
-                        嗨，我是詠茜，畢業於國立高雄師範大學國文系，曾有在教育現場實習及工作的經驗，過程中培養了我換位思考的能力、良好的溝通能力及抗壓性。
-                        在探索職涯方向時，我偶然接觸到了「網頁設計」的領域，並對其產生了濃烈的興趣，在多方考量下，選擇參加泰山職業訓練場的「前端網頁開發技術」全日制職業訓練課程，在半年的時間中，我學習使用HTML、CSS、SCSS、JavaScript、jQuery、 RESTful API 資料串接應用、Vue框架……等前端技術建置RWD網站，並能運用mongoDB建置資料庫，獨立完成一個具有完整前後台的網站。
-                        過往的經歷訓練我成為一個具有責任感且樂於接受挑戰的人，解決問題時的成就感則是我持續學習的動力，我期許自己未來能繼續在網頁設計的領域中耕耘，成為一名能從使用者角度思考的網頁開發者。
-                    </div>
-                </div>
-            </div>
-            </div>
             </div>
         </div>
        
         <!-- skills -->
-        <div class="section03">
-            <div class="row">
-                <!-- 視覺設計 -->
-                <div class="col-12 col-lg-4">
-                   <div class="card" >
-                       <img src="..." class="card-img-top" alt="...">
-                       <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                         <a href="#" class="btn btn-primary">Go somewhere</a>
-                       </div>
-                     </div>
+        <div id="skills" class="section03">
+            <div class="container">
+                <div class="row">
+                    <!-- 視覺設計 -->
+                    <div class="col-12 text-center">
+                        <div class="title_area">
+                            Skills
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                       <div class="card" >
+                           <img src="..." class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <a href="#" class="btn btn-primary">Go somewhere</a>
+                           </div>
+                         </div>
+                   </div>
+                   <!-- 前端技術 -->
+                   <div class="col-12 col-lg-4">
+                       <div class="card" >
+                           <img src="..." class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <a href="#" class="btn btn-primary">Go somewhere</a>
+                           </div>
+                         </div>
+                   </div>
+                   <!-- 後端技術 -->
+                   <div class="col-12 col-lg-4">
+                       <div class="card" >
+                           <img src="..." class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Card title</h5>
+                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <a href="#" class="btn btn-primary">Go somewhere</a>
+                           </div>
+                         </div>
+                   </div>
                </div>
-               <!-- 前端技術 -->
-               <div class="col-12 col-lg-4">
-                   <div class="card" >
-                       <img src="..." class="card-img-top" alt="...">
-                       <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                         <a href="#" class="btn btn-primary">Go somewhere</a>
-                       </div>
-                     </div>
-               </div>
-               <!-- 後端技術 -->
-               <div class="col-12 col-lg-4">
-                   <div class="card" >
-                       <img src="..." class="card-img-top" alt="...">
-                       <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                         <a href="#" class="btn btn-primary">Go somewhere</a>
-                       </div>
-                     </div>
-               </div>
-           </div>
+            </div>
+           
         </div>
 
         <!-- resume -->
-        <div class="section04">
+        <div id="resume" class="section04">
             <div class="container">
                 <div class="row">
                     <!-- 學習經歷 -->
@@ -105,7 +148,7 @@
         </div>
 
         <!-- portfolio -->
-        <div class="section05">
+        <div id="portfolio" class="section05">
             <div class="container">
                 <!-- 專案 -->
                 <div class="row">
@@ -124,14 +167,14 @@
         </div>
 
         <!-- contact me -->
-        <div class="section06">
+        <div id="contactMe" class="section06">
             <div class="container">
                 <div class="row"></div>
             </div>
         </div>
 
         <!-- footer -->
-        <div class="section07">
+        <div class="footer">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12"></div>
