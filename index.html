@@ -13,7 +13,7 @@
 <body>
     <div id="YungChien">
 
-        <nav class="mynavbar navbar navbar-expand-lg fixed-top ">
+        <nav class=" navbar navbar-expand-lg fixed-top ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Yung Chien</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -274,20 +274,131 @@
                     </div>
                     <div class="firstWork">
                         <!-- left card -->
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-5">
                         <div class="card" >
                             <img src="./img/have_a_seat.png" class="card-img-top" >
                             <div class="card-body">
-                              <h5 class="card-title">桌下吧Have a Seat</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="https://cloris222.github.io/quasar-project/#/" class="btn btn-outline-light" tabindex="-1" role="button" >Primary link</a>
+                              <h5 class="card-title">桌下吧 Have a Seat</h5>
+                              <p class="card-text">
+                                桌下吧 Have a Seat是一個桌遊店官網，使用者可以透過這個網站了解店家特色、最新公告、桌遊清單等資訊。
+                                <br>
+                                註冊並登入後可以進行預約與購買店內的二手桌遊，並能在後台查看自己的預約與訂單紀錄。
+                              </p>
+                              <a href="https://cloris222.github.io/quasar-project/#/" class="btn" tabindex="-1" role="button" >Have a Seat</a>
                             </div>
                           </div>
                     </div>
                     <!-- right card -->
-                    <div class="col-12 col-lg-6"></div>
+                    <div class="col-12 col-lg-5">
+                        <div class="info_area">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#idea" aria-expanded="true" aria-controls="idea">
+                                          桌下吧 Have a Seat 發想概念
+                                        </button>
+                                    </h2>
+                                  <div id="idea" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">因為個人興趣因此常會去桌遊店，在瀏覽網頁時發現桌遊店多有以下問題：
+                                        <br>
+                                        <ul>
+                                            <li>資訊有所疏漏或是很久沒更新</li>
+                                            <li>版面有時會過於雜亂，無法清楚地呈現資訊</li>
+                                            <li>許多店家沒有提供網路預約服務，造成不便</li>
+                                        </ul>
+                                        因此希望能夠改善資訊呈現的方式以及提供預約服務以優化使用者體驗。</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#front" aria-expanded="false" aria-controls="front">
+                                        使用者前台
+                                    </button>
+                                  </h2>
+                                  <div id="front" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="aboutFront">
+                                            <div class="front_left">
+                                                <div class="subtitle_area">
+                                                    前台功能
+                                                </div>
+                                                <div class="content_area">
+                                                    <ul>
+                                                        <li>會員註冊/登入</li>
+                                                        <li>輸入條件過濾查找桌遊功能</li>
+                                                        <li>加入並修改購物車</li>
+                                                        <li>送出訂單功能</li>
+                                                        <li>預約功能</li>
+                                                        <li>查看及修改會員資料</li>
+                                                        <li>查看訂單、預約功能</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="front_right">
+                                                <div class="subtitle_area">
+                                                    前台使用技術
+                                                </div>
+                                                <div class="content_area">
+                                                    <ul>
+                                                        <li>使用 Quasar 開發、切版</li>
+                                                        <li>以Pinia存取使用者資訊</li>
+                                                        <li>Vue Router 頁面切換</li>
+                                                        <li>SCSS 預處理器</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back" aria-expanded="false" aria-controls="back">
+                                      管理者後台
+                                    </button>
+                                  </h2>
+                                  <div id="back" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="aboutBack">
+                                            <div class="back_left">
+                                                <div class="subtitle_area">
+                                                    後台功能
+                                                 </div>
+                                                 <div class="content_area">
+                                                     <ul>
+                                                         <li>新增與修改公告</li>
+                                                         <li>新增與修改店內桌遊清單</li>
+                                                         <li>新增與修改二手拍賣商品</li>
+                                                         <li>管理會員資料</li>
+                                                         <li>管理預約資料</li>
+                                                         <li>管理訂單資料</li>
+                                                     </ul>
+                                                 </div>
+                                            </div>
+                                            <div class="back_right">
+                                                <div class="subtitle_area">
+                                                    後台使用技術
+                                                </div>
+                                                <div class="content_area">
+                                                    <ul>
+                                                        <li>處理前端請求：
+                                                            <br>
+                                                            Node.js + Express 套件</li>
+                                                        <li>以RESTful Api進行請求 </li>
+                                                        <li>資料存取：
+                                                            <br>
+                                                            MongoDB + Mongoose 套件</li>
+                                                        <li>部署網站於render</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
                     </div>
-                    
                 </div>
                 <!-- 其他作品 -->
                 <div class="row">

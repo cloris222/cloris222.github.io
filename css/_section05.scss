@@ -4,5 +4,108 @@
 
     .container{
         width: 70%;
+
+        .firstWork{
+            margin-top: 3rem;
+
+            .card{
+                border: none;
+            }
+
+            .card-title{
+                font-size: 22px;
+                font-weight: bolder;
+                color: rgb(72,121,152);
+            }
+
+            .card-text{
+                line-height: 1.5;
+            }
+
+            .btn{
+                display: block;
+                width: 60%;
+                margin: auto;
+                color:rgb(72,121,152) ;
+                border: 2px solid rgb(72,121,152);
+
+                &:hover{
+                    background-color: rgb(72,121,152);
+                    color: lightgray;
+                }
+            }
+
+            .info_area{
+                margin-top: 3rem;
+
+                .accordion-button{
+                    background-color: rgb(72,121,152);
+                    color: lightgray;
+                    font-weight: bolder;
+                    font-size: 18px;
+                }
+                .accordion-body{
+                    line-height: 1.5;
+                    text-align: justify;
+
+                    .subtitle_area{
+                        font-size: 18px;
+                        font-weight: bolder;
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                #idea{
+                    ul{
+                        margin-top: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    @include lg{
+        .container{
+            width: 70%;
+    
+            .firstWork{
+               display: flex;
+               justify-content: space-evenly;
+
+               .card{
+                height: 460px;
+               }
+    
+                .info_area{
+                    margin: 0;
+    
+                    .accordion-button{
+                        background-color: rgb(72,121,152);
+                        color: lightgray;
+                        font-weight: bolder;
+                        font-size: 22px;
+                        letter-spacing: 2px;
+                    }
+                    .accordion-body{
+                        line-height: 1.5;
+                        text-align: justify;
+    
+                        .subtitle_area{
+                            font-size: 18px;
+                            font-weight: bolder;
+                            margin-bottom: 1rem;
+                        }
+                    }
+    
+                    .aboutFront{
+                        display: flex;
+                    }
+
+                    .aboutBack{
+                        display: flex;
+                    }
+                }
+            }
+        }
     }
 }
