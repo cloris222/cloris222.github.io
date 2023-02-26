@@ -436,4 +436,12 @@
   .section04 .container .row .col-12 .myCard .card_content p {
     text-align: justify;
   }
+}
+
+.section05 {
+  margin-top: 3rem;
+  width: 100%;
+}
+.section05 .container {
+  width: 70%;
 }/*# sourceMappingURL=mainCss.css.map */
