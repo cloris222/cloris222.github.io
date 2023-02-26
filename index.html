@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yung Chien's Portfolio</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css' integrity='sha512-bR79Bg78Wmn33N5nvkEyg66hNg+xF/Q8NA8YABbj+4sBngYhv9P8eum19hdjYcY7vXk/vRkhM3v/ZndtgEXRWw==' crossorigin='anonymous'/>
     <link rel='stylesheet' href='./css/mainCss.css'/>
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="YungChien">
 
-        <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <nav class="mynavbar navbar navbar-expand-lg fixed-top ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Yung Chien</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,7 @@
                     <a class="nav-link " aria-current="page" href="#aboutMe">About Me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link " href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#resume">Resume</a>
@@ -92,44 +93,69 @@
         <div id="skills" class="section03">
             <div class="container">
                 <div class="row">
-                    <!-- 視覺設計 -->
                     <div class="col-12 text-center">
                         <div class="title_area">
                             Skills
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
-                       <div class="card" >
-                           <img src="..." class="card-img-top" alt="...">
-                           <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
-                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                             <a href="#" class="btn btn-primary">Go somewhere</a>
-                           </div>
-                         </div>
-                   </div>
-                   <!-- 前端技術 -->
-                   <div class="col-12 col-lg-4">
-                       <div class="card" >
-                           <img src="..." class="card-img-top" alt="...">
-                           <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
-                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                             <a href="#" class="btn btn-primary">Go somewhere</a>
-                           </div>
+                   <!-- 前端開發 -->
+                   <div class="col-12 col-lg-6">
+                       <div class="card front_card" >
+                        <!-- 霓虹燈效果 -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="card_icon">
+                            <span class="mdi mdi-laptop"></span>
+                        </div>
+                        <div class="card-body">
+                             <h5 class="card-title text-center">前端開發</h5>
+                             <p class="card-text">
+                                <div class="card_content">
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Scss</li>
+                                        <li>Bootstrap</li>
+                                        
+                                    </ul>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>jQuery</li>
+                                        <li>Vue.js</li>
+                                        <li>Quasar</li>
+                                    </ul>
+                                </div>
+                             </p>
+                        </div>
+                           
                          </div>
                    </div>
                    <!-- 後端技術 -->
-                   <div class="col-12 col-lg-4">
-                       <div class="card" >
-                           <img src="..." class="card-img-top" alt="...">
-                           <div class="card-body">
-                             <h5 class="card-title">Card title</h5>
-                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                             <a href="#" class="btn btn-primary">Go somewhere</a>
-                           </div>
-                         </div>
-                   </div>
+                   <div class="col-12 col-lg-6">
+                    <div class="card back_card" >
+                        <div class="card_icon">
+                            <span class="mdi mdi-xml"></span>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">後端技術</h5>
+                          <p class="card-text">
+                             <div class="card_content">
+                                 <ul>
+                                     <li>Node.js</li>
+                                     <li>MongoDB</li>
+                                     <li>Git版本控管</li>                                  
+                                 </ul>
+                             </div>
+                          </p>
+                        </div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                </div>
                </div>
             </div>
            
