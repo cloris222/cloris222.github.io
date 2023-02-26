@@ -8,13 +8,33 @@
 
         .row{
             width: 100%;
+            position: relative;
 
             .col-12{
                 color: lightgray;
                 line-height: 400px;
                 font-size: 36px;
-            }
+                    
+        }
             
+    }
+    }
+
+    @include lg{
+        .container-fluid{
+            padding-left: 2rem;
+    
+            .row{
+                width: 100%;
+                position: relative;
+    
+                .col-12{
+                    letter-spacing: 4px;
+                    font-size: 40px;
+                        
+            }
+                
+        }
         }
     }
 

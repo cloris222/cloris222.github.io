@@ -1,0 +1,97 @@
+.section04{
+    width: 100%;
+    margin-top: 3rem;
+
+    .container{
+        width: 70%;
+
+        .row{
+            width: 100%;
+
+            .col-12.subTitle_area{
+                color: rgb(71,121,152);
+                font-size: 24px;
+                font-weight: bolder;
+                margin-top: 2rem;
+            }
+
+            .col-12{
+                .myCard{
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    width: 100%;
+                    padding-left: 2rem;
+                    border-left: 5px solid rgb(71,121,152);
+                    color: lightgray;
+
+                    .card_date{
+                        color: gray;
+                        margin-bottom: 1rem;
+                    }
+                    .card_title{
+                        font-size: 22px;
+                        font-weight: bolder;
+                        letter-spacing: 2px;
+                        margin-bottom: 1rem;
+                    }
+
+                    .card_content{
+                        p{
+                        text-align: justify;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+
+   @include lg{
+    .container{
+        width: 70%;
+
+        .row{
+            width: 100%;
+
+            .left_area,.right_area{
+                display: flex;
+                flex-flow: column wrap;
+                margin-left: 3rem;
+            }
+            
+
+
+            .col-12.subTitle_area{
+                color: rgb(71,121,152);
+                font-size: 24px;
+                font-weight: bolder;
+                margin-top: 2rem;
+            }
+
+            .col-12{
+                .myCard{
+                    padding-right: 1rem;
+                    .card_date{
+                        color: gray;
+                        margin-bottom: 1rem;
+                    }
+                    .card_title{
+                        font-size: 22px;
+                        font-weight: bolder;
+                        letter-spacing: 2px;
+                        margin-bottom: 1rem;
+                    }
+
+                    .card_content{
+                        p{
+                        text-align: justify;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+
+   }
+}

@@ -1,14 +1,15 @@
-//全域設定
-@import '_global.scss';
 
 // RWD
 @import './mixin/rwd';
+
+//全域設定
+@import '_global.scss';
 
 // 結構
 @import '_section01.scss';
 @import '_section02.scss';
 @import '_section03.scss';
-// @import '_section04.scss';
-// @import '_section05.scss';
-// @import '_section06.scss'
+@import '_section04.scss';
+@import '_section05.scss';
+@import '_section06.scss'
 

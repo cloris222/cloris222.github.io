@@ -25,5 +25,23 @@
             left: 50%;
             transform: translate(-50%,-50%);
         }
+
     }
+    @include lg{
+        .title_area{
+            &::after{
+                content:'';
+                width: 7%;
+                border-bottom: 3px solid rgb(71, 121, 152);
+                position: absolute;
+                bottom: -5%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+    
+        }
+    }
+   
+
 }
+
