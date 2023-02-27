@@ -458,7 +458,9 @@
   margin-top: 3rem;
 }
 .section05 .container .firstWork .card {
+  width: 100%;
   border: none;
+  margin-bottom: 3rem;
 }
 .section05 .container .firstWork .card-title {
   font-size: 22px;
@@ -469,6 +471,7 @@
   line-height: 1.5;
 }
 .section05 .container .firstWork .btn {
+  margin-top: 1rem !important;
   display: block;
   width: 60%;
   margin: auto;
@@ -481,6 +484,9 @@
 }
 .section05 .container .firstWork .info_area {
   margin-top: 3rem;
+}
+.section05 .container .firstWork .info_area .accordion {
+  margin-bottom: 3rem;
 }
 .section05 .container .firstWork .info_area .accordion-button {
   background-color: rgb(72, 121, 152);
@@ -500,10 +506,35 @@
 .section05 .container .firstWork .info_area #idea ul {
   margin-top: 2rem;
 }
+.section05 .container .others {
+  width: 100%;
+}
+.section05 .container .others .col-12 .card {
+  width: 100%;
+  border: none;
+  margin-bottom: 3rem;
+}
+.section05 .container .others .col-12 .card-title {
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(72, 121, 152);
+}
+.section05 .container .others .col-12 .card-text {
+  line-height: 1.5;
+}
+.section05 .container .others .col-12 .btn {
+  margin-top: 1rem !important;
+  display: block;
+  width: 60%;
+  margin: auto;
+  color: rgb(72, 121, 152);
+  border: 2px solid rgb(72, 121, 152);
+}
+.section05 .container .others .col-12 .btn:hover {
+  background-color: rgb(72, 121, 152);
+  color: lightgray;
+}
 @media (min-width: 992px) {
-  .section05 .container {
-    width: 70%;
-  }
   .section05 .container .firstWork {
     display: flex;
     justify-content: space-evenly;
@@ -535,5 +566,42 @@
   }
   .section05 .container .firstWork .info_area .aboutBack {
     display: flex;
+  }
+  .section05 .container .others {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .section05 .container .others .top_area, .section05 .container .others .bottom_area {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .section05 .container .others .col-12 .card {
+    width: 100%;
+    height: 480px;
+    border: none;
+    margin-bottom: 3rem;
+  }
+  .section05 .container .others .col-12 .card-title {
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(72, 121, 152);
+  }
+  .section05 .container .others .col-12 .card-text {
+    line-height: 1.5;
+  }
+  .section05 .container .others .col-12 .btn {
+    margin-top: 1rem !important;
+    display: block;
+    width: 60%;
+    margin: auto;
+    color: rgb(72, 121, 152);
+    border: 2px solid rgb(72, 121, 152);
+  }
+  .section05 .container .others .col-12 .btn:hover {
+    background-color: rgb(72, 121, 152);
+    color: lightgray;
   }
 }/*# sourceMappingURL=mainCss.css.map */

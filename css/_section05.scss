@@ -9,26 +9,29 @@
             margin-top: 3rem;
 
             .card{
+                width: 100%;
                 border: none;
+                margin-bottom: 3rem;
             }
-
+    
             .card-title{
                 font-size: 22px;
                 font-weight: bolder;
                 color: rgb(72,121,152);
             }
-
+    
             .card-text{
                 line-height: 1.5;
             }
-
+    
             .btn{
+                margin-top: 1rem!important;
                 display: block;
                 width: 60%;
                 margin: auto;
                 color:rgb(72,121,152) ;
                 border: 2px solid rgb(72,121,152);
-
+    
                 &:hover{
                     background-color: rgb(72,121,152);
                     color: lightgray;
@@ -37,6 +40,10 @@
 
             .info_area{
                 margin-top: 3rem;
+
+                .accordion{
+                    margin-bottom: 3rem;
+                }
 
                 .accordion-button{
                     background-color: rgb(72,121,152);
@@ -62,11 +69,47 @@
                 }
             }
         }
+        .others{
+            width: 100%;
+
+            .col-12{
+
+                .card{
+                    width: 100%;
+                    border: none;
+                    margin-bottom: 3rem;
+                }
+        
+                .card-title{
+                    font-size: 22px;
+                    font-weight: bolder;
+                    color: rgb(72,121,152);
+                }
+        
+                .card-text{
+                    line-height: 1.5;
+                }
+        
+                .btn{
+                    margin-top: 1rem!important;
+                    display: block;
+                    width: 60%;
+                    margin: auto;
+                    color:rgb(72,121,152) ;
+                    border: 2px solid rgb(72,121,152);
+        
+                    &:hover{
+                        background-color: rgb(72,121,152);
+                        color: lightgray;
+                    }
+                }
+            }
+
+        }
     }
 
     @include lg{
         .container{
-            width: 70%;
     
             .firstWork{
                display: flex;
@@ -105,6 +148,57 @@
                         display: flex;
                     }
                 }
+            }
+
+            .others{
+                margin-top: 2rem;
+                width: 100%;
+                display: flex;
+                flex-flow: column wrap;
+
+                .top_area,.bottom_area{
+                    display: flex;
+                    justify-content: space-evenly;
+                    width: 100%;
+                }
+    
+                .col-12{
+    
+                    .card{
+                        width: 100%;
+                        height: 480px;
+                        border: none;
+                        margin-bottom: 3rem;
+
+                    }
+
+                   
+            
+                    .card-title{
+                        font-size: 22px;
+                        font-weight: bolder;
+                        color: rgb(72,121,152);
+                    }
+            
+                    .card-text{
+                        line-height: 1.5;
+                    }
+            
+                    .btn{
+                        margin-top: 1rem!important;
+                        display: block;
+                        width: 60%;
+                        margin: auto;
+                        color:rgb(72,121,152) ;
+                        border: 2px solid rgb(72,121,152);
+            
+                        &:hover{
+                            background-color: rgb(72,121,152);
+                            color: lightgray;
+                        }
+                    }
+                }
+    
             }
         }
     }
