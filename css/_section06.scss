@@ -1,11 +1,11 @@
 .section06{
+    margin-top: 3rem;
     .container{
         width: 70%;
 
         .subtitle_area{
             color: lightgray;
             text-align: center;
-            letter-spacing: 2px;
         }
 
         .btn_area{
@@ -72,6 +72,10 @@
     @include lg{
         .container{
             width: 70%;
+
+            .subtitle_area{
+                letter-spacing: 2px;
+            }
     
             .btn_area{
                 margin-top: 2rem;

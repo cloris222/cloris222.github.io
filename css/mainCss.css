@@ -450,8 +450,7 @@
   }
   .section04 .container .row .card {
     margin-top: 2rem;
-    height: 300px;
-    padding-bottom: 2rem;
+    height: 320px;
   }
   .section04 .container .row .card span {
     position: absolute;
@@ -575,13 +574,15 @@
   }
 }
 
+.section06 {
+  margin-top: 3rem;
+}
 .section06 .container {
   width: 70%;
 }
 .section06 .container .subtitle_area {
   color: lightgray;
   text-align: center;
-  letter-spacing: 2px;
 }
 .section06 .container .btn_area {
   margin-top: 2rem;
@@ -638,6 +639,9 @@
 @media (min-width: 992px) {
   .section06 .container {
     width: 70%;
+  }
+  .section06 .container .subtitle_area {
+    letter-spacing: 2px;
   }
   .section06 .container .btn_area {
     margin-top: 2rem;
