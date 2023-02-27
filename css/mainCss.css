@@ -604,4 +604,74 @@
     background-color: rgb(72, 121, 152);
     color: lightgray;
   }
+}
+
+.section06 .container {
+  width: 70%;
+}
+.section06 .container .subtitle_area {
+  color: lightgray;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.section06 .container .btn_area {
+  margin-top: 2rem;
+}
+.section06 .container .btn_area .btn_email {
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+.section06 .container .btn_area .btn_email:hover {
+  opacity: 1;
+}
+.section06 .container .btn_area .btn_email a {
+  display: block;
+  text-decoration: none;
+  color: rgb(72, 121, 152);
+}
+.section06 .container .btn_area .btn_email a .mdi-email {
+  font-size: 80px;
+  text-align: center;
+}
+.section06 .container .btn_area .btn_phone {
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+.section06 .container .btn_area .btn_phone:hover {
+  opacity: 1;
+}
+.section06 .container .btn_area .btn_phone .mdi-phone {
+  font-size: 80px;
+  text-align: center;
+  color: rgb(72, 121, 152);
+}
+.section06 .container .btn_area .btn_github {
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+.section06 .container .btn_area .btn_github:hover {
+  opacity: 1;
+}
+.section06 .container .btn_area .btn_github a {
+  display: block;
+  text-decoration: none;
+  color: rgb(72, 121, 152);
+}
+.section06 .container .btn_area .btn_github a .mdi-github {
+  font-size: 80px;
+  text-align: center;
+}
+.section06 .container .btn_area .text_area {
+  font-size: 20px;
+  color: lightgray;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .section06 .container {
+    width: 70%;
+  }
+  .section06 .container .btn_area {
+    margin-top: 2rem;
+    display: flex;
+  }
 }/*# sourceMappingURL=mainCss.css.map */
