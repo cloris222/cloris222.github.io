@@ -1,205 +1,98 @@
 .section05{
-    margin-top: 3rem;
     width: 100%;
+    margin-top: 3rem;
 
     .container{
         width: 70%;
 
-        .firstWork{
-            margin-top: 3rem;
-
-            .card{
-                width: 100%;
-                border: none;
-                margin-bottom: 3rem;
-            }
-    
-            .card-title{
-                font-size: 22px;
-                font-weight: bolder;
-                color: rgb(72,121,152);
-            }
-    
-            .card-text{
-                line-height: 1.5;
-            }
-    
-            .btn{
-                margin-top: 1rem!important;
-                display: block;
-                width: 60%;
-                margin: auto;
-                color:rgb(72,121,152) ;
-                border: 2px solid rgb(72,121,152);
-    
-                &:hover{
-                    background-color: rgb(72,121,152);
-                    color: lightgray;
-                }
-            }
-
-            .info_area{
-                margin-top: 3rem;
-
-                .accordion{
-                    margin-bottom: 3rem;
-                }
-
-                .accordion-button{
-                    background-color: rgb(72,121,152);
-                    color: lightgray;
-                    font-weight: bolder;
-                    font-size: 18px;
-                }
-                .accordion-body{
-                    line-height: 1.5;
-                    text-align: justify;
-
-                    .subtitle_area{
-                        font-size: 18px;
-                        font-weight: bolder;
-                        margin-bottom: 1rem;
-                    }
-                }
-
-                #idea{
-                    ul{
-                        margin-top: 2rem;
-                    }
-                }
-            }
-        }
-        .others{
+        .row{
             width: 100%;
 
-            .col-12{
+            .col-12.subTitle_area{
+                color: rgb(71,121,152);
+                font-size: 24px;
+                font-weight: bolder;
+                margin-top: 2rem;
+            }
 
-                .card{
+            .col-12{
+                .myCard{
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                     width: 100%;
-                    border: none;
-                    margin-bottom: 3rem;
-                }
-        
-                .card-title{
-                    font-size: 22px;
-                    font-weight: bolder;
-                    color: rgb(72,121,152);
-                }
-        
-                .card-text{
-                    line-height: 1.5;
-                }
-        
-                .btn{
-                    margin-top: 1rem!important;
-                    display: block;
-                    width: 60%;
-                    margin: auto;
-                    color:rgb(72,121,152) ;
-                    border: 2px solid rgb(72,121,152);
-        
-                    &:hover{
-                        background-color: rgb(72,121,152);
-                        color: lightgray;
+                    padding-left: 2rem;
+                    border-left: 5px solid rgb(71,121,152);
+                    color: lightgray;
+
+                    .card_date{
+                        color: gray;
+                        margin-bottom: 1rem;
+                    }
+                    .card_title{
+                        font-size: 20px;
+                        font-weight: bolder;
+                        letter-spacing: 2px;
+                        margin-bottom: 1rem;
+                    }
+
+                    .card_content{
+                        ul{
+                            padding: 0;
+                            margin: 0;
+                        }
+                        
                     }
                 }
             }
-
         }
     }
 
-    @include lg{
-        .container{
-    
-            .firstWork{
-               display: flex;
-               justify-content: space-evenly;
+   @include lg{
+    .container{
+        width: 70%;
 
-               .card{
-                height: 460px;
-               }
-    
-                .info_area{
-                    margin: 0;
-    
-                    .accordion-button{
-                        background-color: rgb(72,121,152);
-                        color: lightgray;
-                        font-weight: bolder;
-                        font-size: 22px;
-                        letter-spacing: 2px;
-                    }
-                    .accordion-body{
-                        line-height: 1.5;
-                        text-align: justify;
-    
-                        .subtitle_area{
-                            font-size: 18px;
-                            font-weight: bolder;
-                            margin-bottom: 1rem;
-                        }
-                    }
-    
-                    .aboutFront{
-                        display: flex;
-                    }
+        .row{
+            width: 100%;
 
-                    .aboutBack{
-                        display: flex;
-                    }
-                }
-            }
-
-            .others{
-                margin-top: 2rem;
-                width: 100%;
+            .left_area,.right_area{
                 display: flex;
                 flex-flow: column wrap;
-
-                .top_area,.bottom_area{
-                    display: flex;
-                    justify-content: space-evenly;
-                    width: 100%;
-                }
-    
-                .col-12{
-    
-                    .card{
-                        width: 100%;
-                        height: 480px;
-                        border: none;
-                        margin-bottom: 3rem;
-
-                    }
-
-                   
+                margin-left: 3rem;
+            }
             
-                    .card-title{
+
+
+            .col-12.subTitle_area{
+                color: rgb(71,121,152);
+                font-size: 24px;
+                font-weight: bolder;
+                margin-top: 2rem;
+            }
+
+            .col-12{
+                .myCard{
+                    padding-right: 1rem;
+                    .card_date{
+                        color: gray;
+                        margin-bottom: 1rem;
+                    }
+                    .card_title{
                         font-size: 22px;
                         font-weight: bolder;
-                        color: rgb(72,121,152);
+                        letter-spacing: 2px;
+                        margin-bottom: 1rem;
                     }
-            
-                    .card-text{
-                        line-height: 1.5;
-                    }
-            
-                    .btn{
-                        margin-top: 1rem!important;
-                        display: block;
-                        width: 60%;
-                        margin: auto;
-                        color:rgb(72,121,152) ;
-                        border: 2px solid rgb(72,121,152);
-            
-                        &:hover{
-                            background-color: rgb(72,121,152);
-                            color: lightgray;
+
+                    .card_content{
+                        p{
+                        text-align: justify;
                         }
+                        
                     }
                 }
-    
             }
         }
     }
+
+   }
 }

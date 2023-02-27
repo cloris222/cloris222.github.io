@@ -1,297 +1,205 @@
 .section03{
-  width: 100%;
-  margin-top: 3rem;
+    margin-top: 3rem;
+    width: 100%;
 
     .container{
         width: 70%;
 
-        .row{
-            width: 100%;
+        .firstWork{
+            margin-top: 3rem;
 
             .card{
-                text-align: center;
-                margin-bottom: 2rem;
-                padding-top: 1rem;
-                background-color: rgb(37, 37, 37);
-                position: relative;
-                transition: 0.5s;
+                width: 100%;
                 border: none;
-
-                span{
-                    position: absolute;
-                }
-
-                .card_icon{
-                    div{
-                        font-size: 50px;
-                        color: rgb(71,121,152);
-                    }
-                }
-                .card-title{
-                    color: lightgray;
-                    font-weight: bolder;
-                }
-                .card_content{
-                    color: lightgray;
-                    display: flex;
+                margin-bottom: 3rem;
+            }
     
-                    ul{
-                        margin-right: 2rem;
-                        text-align: left;
+            .card-title{
+                font-size: 22px;
+                font-weight: bolder;
+                color: rgb(72,121,152);
+            }
     
-                        li{
-                            height: 30px;
-                        }
-                    }
-                }
-                
-                
-
-                // 霓虹燈效果
+            .card-text{
+                line-height: 1.5;
+            }
+    
+            .btn{
+                margin-top: 1rem!important;
+                display: block;
+                width: 60%;
+                margin: auto;
+                color:rgb(72,121,152) ;
+                border: 2px solid rgb(72,121,152);
+    
                 &:hover{
-                    // text-shadow:
-                    //     1px 1px 1px rgba(0, 0, 0, 0.5),
-                    //     0 0 5px rgba(71,121,152, 1),
-                    //     0 0 25px rgb(71,121,152);
-                    box-shadow:
-                        0 0 5px rgba(71,121,152, 1),
-                        0 0 25px rgba(71,121,152, 0.8),
-                        0 0 50px rgba(71,121,152, 0.5),
-                        0 0 150px rgba(71,121,152, 0.3);
-
-                    // 上邊
-                    span:nth-of-type(1){
-                        top: 0;
-                        left: 0;
-                        width: 0;
-                        height: 1px;
-                        background: linear-gradient(90deg, rgb(71,121,152), rgb(71,121,152));
-                        animation: a1 0.5s forwards;
-                      }
-
-                      @keyframes a1 {
-                        0% {
-                          width: 0;
-                        }
-                  
-                        100% {
-                          width: 100%;
-                        }
-                      }
-
-                    // 右邊
-                    span:nth-of-type(2){
-                        top: 0;
-                        right: 0;
-                        width: 1px;
-                        height: 0;
-                        background: linear-gradient(180deg, rgb(71,121,152), rgb(71,121,152));
-                        animation: a2 0.5s forwards;
-                      }
-
-                      @keyframes a2 {
-                        0% {
-                          height: 0;
-                        }
-                  
-                        100% {
-                          height: 100%;
-                        }
-                      }
-
-                    //  下邊
-                    span:nth-of-type(3){
-                        bottom: 0;
-                        right: 0;
-                        width: 0;
-                        height: 1px;
-                        background: linear-gradient(270deg,rgb(71,121,152), rgb(71,121,152));
-                        animation: a3 0.5s forwards;
-                      }
-
-                      @keyframes a3 {
-                        0% {
-                          width: 0;
-                        }
-                  
-                        100% {
-                          width: 100%;
-                        }
-                      }
-
-                      //  左邊
-                    span:nth-of-type(4){
-                        bottom: 0;
-                        left: 0;
-                        width: 1px;
-                        height: 0;
-                        background: linear-gradient(0deg,rgb(71,121,152), rgb(71,121,152));
-                        animation: a4 0.5s forwards;
-                      }
-
-                      @keyframes a4 {
-                        0% {
-                          height: 0;
-                        }
-                  
-                        100% {
-                          height: 100%;
-                        }
-                      }
-                }
-                          
-
-                }
-
-                .back_card{
-                    .card_content{
-                        margin: auto;
-                        justify-content: center;
-                        text-align: center;
-                        padding-left: 2rem;
-                    }
+                    background-color: rgb(72,121,152);
+                    color: lightgray;
                 }
             }
 
-        }
+            .info_area{
+                margin-top: 3rem;
 
-    @include lg{
-      .container{
-        width: 70%;
-
-        .row{
-            width: 100%;
-
-            .card{
-              margin-top: 2rem;
-                height: 300px;
-
-                span{
-                    position: absolute;
+                .accordion{
+                    margin-bottom: 3rem;
                 }
 
-                .card_content{
-                    justify-content: space-evenly;
+                .accordion-button{
+                    background-color: rgb(72,121,152);
+                    color: lightgray;
+                    font-weight: bolder;
+                    font-size: 18px;
+                }
+                .accordion-body{
+                    line-height: 1.5;
+                    text-align: justify;
 
-    
-                    ul{
-                        margin-right: 2rem;
-                        text-align: left;
-    
-                        li{
-                            height: 30px;
-                        }
+                    .subtitle_area{
+                        font-size: 18px;
+                        font-weight: bolder;
+                        margin-bottom: 1rem;
                     }
                 }
-                
-                
 
-                // 霓虹燈效果
-                &:hover{
-                    // text-shadow:
-                    //     1px 1px 1px rgba(0, 0, 0, 0.5),
-                    //     0 0 5px rgba(71,121,152, 1),
-                    //     0 0 25px rgb(71,121,152);
-                    box-shadow:
-                        0 0 5px rgba(71,121,152, 1),
-                        0 0 25px rgba(71,121,152, 0.8),
-                        0 0 50px rgba(71,121,152, 0.5),
-                        0 0 150px rgba(71,121,152, 0.3);
-
-                    // 上邊
-                    span:nth-of-type(1){
-                        top: 0;
-                        left: 0;
-                        width: 0;
-                        height: 1px;
-                        background: linear-gradient(90deg, rgb(71,121,152), rgb(71,121,152));
-                        animation: a1 0.5s forwards;
-                      }
-
-                      @keyframes a1 {
-                        0% {
-                          width: 0;
-                        }
-                  
-                        100% {
-                          width: 100%;
-                        }
-                      }
-
-                    // 右邊
-                    span:nth-of-type(2){
-                        top: 0;
-                        right: 0;
-                        width: 1px;
-                        height: 0;
-                        background: linear-gradient(180deg, rgb(71,121,152), rgb(71,121,152));
-                        animation: a2 0.5s forwards;
-                      }
-
-                      @keyframes a2 {
-                        0% {
-                          height: 0;
-                        }
-                  
-                        100% {
-                          height: 100%;
-                        }
-                      }
-
-                    //  下邊
-                    span:nth-of-type(3){
-                        bottom: 0;
-                        right: 0;
-                        width: 0;
-                        height: 1px;
-                        background: linear-gradient(270deg,rgb(71,121,152), rgb(71,121,152));
-                        animation: a3 0.5s forwards;
-                      }
-
-                      @keyframes a3 {
-                        0% {
-                          width: 0;
-                        }
-                  
-                        100% {
-                          width: 100%;
-                        }
-                      }
-
-                      //  左邊
-                    span:nth-of-type(4){
-                        bottom: 0;
-                        left: 0;
-                        width: 1px;
-                        height: 0;
-                        background: linear-gradient(0deg,rgb(71,121,152), rgb(71,121,152));
-                        animation: a4 0.5s forwards;
-                      }
-
-                      @keyframes a4 {
-                        0% {
-                          height: 0;
-                        }
-                  
-                        100% {
-                          height: 100%;
-                        }
-                      }
+                #idea{
+                    ul{
+                        margin-top: 2rem;
+                    }
                 }
-                          
+            }
+        }
+        .others{
+            width: 100%;
 
+            .col-12{
+
+                .card{
+                    width: 100%;
+                    border: none;
+                    margin-bottom: 3rem;
                 }
-
-                .back_card{
-                    .card_content{
-                        margin: auto;
-                        justify-content: center;
-                        text-align: center;
-                        padding-left: 2rem;
+        
+                .card-title{
+                    font-size: 22px;
+                    font-weight: bolder;
+                    color: rgb(72,121,152);
+                }
+        
+                .card-text{
+                    line-height: 1.5;
+                }
+        
+                .btn{
+                    margin-top: 1rem!important;
+                    display: block;
+                    width: 60%;
+                    margin: auto;
+                    color:rgb(72,121,152) ;
+                    border: 2px solid rgb(72,121,152);
+        
+                    &:hover{
+                        background-color: rgb(72,121,152);
+                        color: lightgray;
                     }
                 }
             }
 
         }
     }
-  }
+
+    @include lg{
+        .container{
+    
+            .firstWork{
+               display: flex;
+               justify-content: space-evenly;
+
+               .card{
+                height: 511px;
+               }
+    
+                .info_area{
+                    margin: 0;
+    
+                    .accordion-button{
+                        background-color: rgb(72,121,152);
+                        color: lightgray;
+                        font-weight: bolder;
+                        font-size: 22px;
+                        letter-spacing: 2px;
+                    }
+                    .accordion-body{
+                        line-height: 1.5;
+                        text-align: justify;
+    
+                        .subtitle_area{
+                            font-size: 18px;
+                            font-weight: bolder;
+                            margin-bottom: 1rem;
+                        }
+                    }
+    
+                    .aboutFront{
+                        display: flex;
+                    }
+
+                    .aboutBack{
+                        display: flex;
+                    }
+                }
+            }
+
+            .others{
+                margin-top: 2rem;
+                width: 100%;
+                display: flex;
+                flex-flow: column wrap;
+
+                .top_area,.bottom_area{
+                    display: flex;
+                    justify-content: space-evenly;
+                    width: 100%;
+                }
+    
+                .col-12{
+    
+                    .card{
+                        width: 100%;
+                        height: 480px;
+                        border: none;
+                        margin-bottom: 3rem;
+
+                    }
+
+                   
+            
+                    .card-title{
+                        font-size: 22px;
+                        font-weight: bolder;
+                        color: rgb(72,121,152);
+                    }
+            
+                    .card-text{
+                        line-height: 1.5;
+                    }
+            
+                    .btn{
+                        margin-top: 1rem!important;
+                        display: block;
+                        width: 60%;
+                        margin: auto;
+                        color:rgb(72,121,152) ;
+                        border: 2px solid rgb(72,121,152);
+            
+                        &:hover{
+                            background-color: rgb(72,121,152);
+                            color: lightgray;
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+}
