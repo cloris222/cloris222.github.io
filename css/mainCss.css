@@ -630,7 +630,7 @@
   color: rgb(72, 121, 152);
 }
 .section06 .container .btn_area .btn_email a .mdi-email {
-  font-size: 80px;
+  font-size: 76px;
   text-align: center;
 }
 .section06 .container .btn_area .btn_phone {
@@ -641,7 +641,7 @@
   opacity: 1;
 }
 .section06 .container .btn_area .btn_phone .mdi-phone {
-  font-size: 80px;
+  font-size: 76px;
   text-align: center;
   color: rgb(72, 121, 152);
 }
@@ -658,7 +658,7 @@
   color: rgb(72, 121, 152);
 }
 .section06 .container .btn_area .btn_github a .mdi-github {
-  font-size: 80px;
+  font-size: 76px;
   text-align: center;
 }
 .section06 .container .btn_area .text_area {
@@ -674,4 +674,20 @@
     margin-top: 2rem;
     display: flex;
   }
+}
+
+.footer {
+  margin-top: 3rem;
+}
+.footer .container-fluid {
+  background-color: rgb(72, 121, 152);
+}
+.footer .container-fluid .row {
+  width: 100%;
+}
+.footer .container-fluid .row .col-12 {
+  height: 50px;
+  color: lightgray;
+  text-align: center;
+  line-height: 50px;
 }/*# sourceMappingURL=mainCss.css.map */

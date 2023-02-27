@@ -1,0 +1,15 @@
+.footer{
+    margin-top: 3rem;
+    .container-fluid{
+        background-color: rgb(72,121,152);
+        .row{
+            width: 100%;
+            .col-12{
+                height: 50px;
+                color: lightgray;
+                text-align: center;
+                line-height: 50px;
+            }
+        }
+    }
+}
