@@ -118,6 +118,7 @@
 }
 .section02 .container .row .info_area .img_area {
   height: 100%;
+  margin-top: 4rem;
 }
 .section02 .container .row .info_area .img_area img {
   width: 100%;
